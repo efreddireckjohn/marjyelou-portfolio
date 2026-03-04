@@ -236,3 +236,41 @@ footer{
 html {
   scroll-behavior: smooth;
 }
+/* Container para sa duha ka button aron mag-sunod sila */
+.contact-buttons {
+    display: flex;
+    justify-content: center; /* I-center ang duha ka button */
+    gap: 15px; /* Spasyo sa tunga sa duha ka button */
+    margin-top: 20px; /* Spasyo sa taas sa mga button */
+}
+
+/* Common style para sa duha ka button */
+.btn {
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none; /* Tangtangon ang underline sa link */
+    color: white; /* Puty ang text color */
+    font-weight: bold;
+    display: inline-block;
+    transition: all 0.3s ease; /* Hover effect */
+}
+
+/* Style para sa Facebook button */
+.facebook-btn {
+    background-color: #1877F2; /* Facebook Blue */
+}
+
+.facebook-btn:hover {
+    background-color: #145DBF; /* Mas ngitngit nga blue inig hover */
+    transform: translateY(-2px); /* Gamayng saka inig hover */
+}
+
+/* Style para sa Email button */
+.email-btn {
+    background-color: #ff00ff; /* Murag pareha sa imong original nga color (magenta/pink) */
+}
+
+.email-btn:hover {
+    background-color: #cc00cc; /* Mas ngitngit nga magenta inig hover */
+    transform: translateY(-2px); /* Gamayng saka inig hover */
+}
