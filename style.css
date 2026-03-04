@@ -197,27 +197,27 @@ footer{
 .projects-list {
   display: flex;
   flex-direction: column;
-  gap: 20px; /* Spacing sa cards */
+  gap: 20px; 
 }
 
-/* Kani ang card design */
+
 .project-card {
-  text-decoration: none; /* Hawas ang underline sa link */
+  text-decoration: none;
   color: inherit;
-  background-color: #1a1a1d; /* Slightly lighter black */
+  background-color: #1a1a1d;
   border: 1px solid #333;
   border-radius: 12px;
   padding: 25px;
   display: block;
-  transition: all 0.3s ease; /* Smooth transition para sa hover */
+  transition: all 0.3s ease; 
 }
 
-/* Kani ang "gwapo" hover effect */
+
 .project-card:hover {
-  border-color: #7b2cbf; /* Purple border kung i-hover */
+  border-color: #7b2cbf; 
   background-color: #252529;
-  transform: translateY(-5px); /* Molutaw gamay */
-  box-shadow: 0 10px 20px rgba(123, 44, 191, 0.2); /* Purple glow */
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(123, 44, 191, 0.2);
 }
 
 .card-content h3 {
@@ -236,48 +236,47 @@ footer{
 html {
   scroll-behavior: smooth;
 }
-/* Container para sa duha ka button aron mag-sunod sila */
-/* Container para hapsay ug mag-atbang ang duha ka button */
+
 .contact-buttons {
-    display: flex; /* Para mag-atbang sila */
-    justify-content: center; /* I-center ang duha sa screen */
-    align-items: center; /* I-align sila sa tunga horizontally */
-    gap: 20px; /* Spasyo sa tunga sa duha ka button */
-    margin-top: 30px; /* Spasyo sa taas sa mga button */
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    gap: 20px; 
+    margin-top: 30px; 
 }
 
-/* Common style para rounded ug hapsay ang duha ka button */
+
 .contact-buttons a {
-    display: flex; /* Para ma-center ang text sa sulod */
-    justify-content: center; /* I-center horizontally */
-    align-items: center; /* I-center vertically */
-    padding: 15px 30px; /* Husto nga spasyo sa sulod */
-    border-radius: 50px; /* rounded kaayo para modern */
-    text-decoration: none; /* Tangtangon ang underline sa link */
-    color: #ffffff !important; /* Siguraduha nga PUTI gyud ang text */
-    font-weight: 600; /* Medyo baga ang font */
-    font-size: 16px; /* Husto nga gidak-on sa text */
-    transition: all 0.3s ease; /* Hover effect acceleration */
-    min-width: 150px; /* Siguraduha nga pareha ang min-width */
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    padding: 15px 30px; 
+    border-radius: 50px; 
+    text-decoration: none; 
+    color: #ffffff !important;
+    font-weight: 600; 
+    font-size: 16px; 
+    transition: all 0.3s ease; 
+    min-width: 150px; 
 }
 
-/* Style para sa Facebook button specifically */
 .facebook-btn {
-    background-color: #1877F2; /* Facebook Blue */
+    background-color: #1877F2; 
 }
 
 .facebook-btn:hover {
-    background-color: #145DBF; /* Mas ngitngit nga blue inig hover */
-    transform: translateY(-3px); /* Gamayng saka inig hover */
+    background-color: #145DBF;
+    transform: translateY(-3px); 
 }
 
-/* Style para sa Email button specifically (Fixed) */
+
 .email-btn {
-    background-color: #ff00ff; /* Magenta Background */
+    background-color: #ff00ff;
 }
 
 .email-btn:hover {
-    background-color: #cc00cc; /* Mas ngitngit nga magenta inig hover */
-    transform: translateY(-3px); /* Gamayng saka inig hover */
+    background-color: #cc00cc;
+    transform: translateY(-3px); 
 }
+
 
